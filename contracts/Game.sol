@@ -55,6 +55,10 @@ contract Game {
         decisions[msg.sender] = _move;
     }
 
+    function checkHost() external view returns(address)  {
+        return host;
+    }
+
     function moveReveal(int _move, bytes32 _code) external gameEnded{
         bytes32 move = keccak256(abi.encodePacked(_move, _code, msg.sender));
         require(decisions[msg.sender]==move);

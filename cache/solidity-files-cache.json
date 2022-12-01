@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Pivs\\Desktop\\r-s-p\\contracts\\Game.sol": {
-      "lastModificationDate": 1669405124188,
-      "contentHash": "67e517c614bb4825e3d2924172e0c660",
+      "lastModificationDate": 1669931322654,
+      "contentHash": "d99670be33adcf2ea5d77f7c38c68829",
       "sourceName": "contracts/Game.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -34,6 +34,41 @@
       ],
       "artifacts": [
         "Game"
+      ]
+    },
+    "C:\\Users\\Pivs\\Desktop\\r-s-p\\contracts\\Other.sol": {
+      "lastModificationDate": 1669932135616,
+      "contentHash": "c1da199b5f161a35994b7c4b0ef7a22e",
+      "sourceName": "contracts/Other.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Other"
       ]
     }
   }
