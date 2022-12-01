@@ -22,7 +22,7 @@ it("Checks the connection to other contract", async function(){
     await other.connect(acc1).otherSetHost(game.address)
     expect(await other.otherSetHostStatus()).to.eq(true)
 })
-it("Сhecks the address", async function(){
+it("Checks the address", async function(){
     await game.setHost();
     const host = await game.checkHost();
     await other.otherExtractHost(game.address)
