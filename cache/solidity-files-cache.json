@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Pivs\\Desktop\\bets\\contracts\\Bets.sol": {
-      "lastModificationDate": 1670178224533,
-      "contentHash": "0290eb4a336fc78840fd294e6a281178",
-      "sourceName": "contracts/Bets.sol",
+    "C:\\Users\\Pivs\\Desktop\\r-s-p\\contracts\\Game.sol": {
+      "lastModificationDate": 1669931322654,
+      "contentHash": "d99670be33adcf2ea5d77f7c38c68829",
+      "sourceName": "contracts/Game.sol",
       "solcConfig": {
         "version": "0.8.17",
         "settings": {
@@ -33,7 +33,42 @@
         ">=0.7.0 <0.9.0"
       ],
       "artifacts": [
-        "Bets"
+        "Game"
+      ]
+    },
+    "C:\\Users\\Pivs\\Desktop\\r-s-p\\contracts\\Other.sol": {
+      "lastModificationDate": 1669932135616,
+      "contentHash": "c1da199b5f161a35994b7c4b0ef7a22e",
+      "sourceName": "contracts/Other.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Other"
       ]
     }
   }
